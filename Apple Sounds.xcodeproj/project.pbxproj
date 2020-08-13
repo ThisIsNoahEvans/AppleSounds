@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F66616924D813190075B8AF /* iOS-Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F66616824D813190075B8AF /* iOS-Class.swift */; };
 		4F761D6C24A4B9DB00AFC7FC /* iOS-VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F761D6B24A4B9DB00AFC7FC /* iOS-VC.swift */; };
 		4F8CBA8124A3FB31007EDFFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CBA8024A3FB31007EDFFD /* AppDelegate.swift */; };
 		4F8CBA8324A3FB31007EDFFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CBA8224A3FB31007EDFFD /* SceneDelegate.swift */; };
@@ -573,7 +572,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F66616824D813190075B8AF /* iOS-Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS-Class.swift"; sourceTree = "<group>"; };
 		4F761D6B24A4B9DB00AFC7FC /* iOS-VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOS-VC.swift"; sourceTree = "<group>"; };
 		4F78B92D24A754A100847429 /* Apple Sounds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Apple Sounds.entitlements"; sourceTree = "<group>"; };
 		4F8A657024E58A5B006745F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -1193,7 +1191,6 @@
 				4F8CBA8224A3FB31007EDFFD /* SceneDelegate.swift */,
 				4F8CBA8424A3FB31007EDFFD /* Mac-VC.swift */,
 				4F761D6B24A4B9DB00AFC7FC /* iOS-VC.swift */,
-				4F66616824D813190075B8AF /* iOS-Class.swift */,
 				4F8CBA8624A3FB31007EDFFD /* Main.storyboard */,
 				4F8CBA8924A3FB34007EDFFD /* Assets.xcassets */,
 				4F8CBA8B24A3FB34007EDFFD /* LaunchScreen.storyboard */,
@@ -2445,7 +2442,6 @@
 			files = (
 				4F761D6C24A4B9DB00AFC7FC /* iOS-VC.swift in Sources */,
 				4F8CBA8524A3FB31007EDFFD /* Mac-VC.swift in Sources */,
-				4F66616924D813190075B8AF /* iOS-Class.swift in Sources */,
 				4F8CBA8124A3FB31007EDFFD /* AppDelegate.swift in Sources */,
 				4F8CBA8324A3FB31007EDFFD /* SceneDelegate.swift in Sources */,
 			);

@@ -8,8 +8,6 @@
 import UIKit
 import AVFoundation
 
-
-
 class iOSViewController: UITableViewController {
     
     private var player: AVAudioPlayer?
@@ -31,99 +29,7 @@ class iOSViewController: UITableViewController {
         }
         
     }
-  
-    let sounds = [
-    "IOS-access_scan_complete.caf",
-    "IOS-acknowledgment_received.caf",
-    "IOS-acknowledgment_sent.caf",
-    "IOS-alarm.caf",
-    "IOS-Anticipate.caf",
-    "IOS-begin_record.caf",
-    "IOS-Bloom.caf",
-    "IOS-Calypso.caf",
-    "IOS-camera_shutter_burst_begin.caf",
-    "IOS-camera_shutter_burst_end.caf",
-    "IOS-camera_shutter_burst.caf",
-    "IOS-camera_timer_countdown.caf",
-    "IOS-camera_timer_final_second.caf",
-    "IOS-Choo_Choo.caf",
-    "IOS-connect_power.caf",
-    "IOS-ct-busy.caf",
-    "IOS-ct-congestion.caf",
-    "IOS-ct-error.caf",
-    "IOS-ct-keytone2.caf",
-    "IOS-ct-path-ack.caf",
-    "IOS-Descent.caf",
-    "IOS-end_record.caf",
-    "IOS-Fanfare.caf",
-    "IOS-focus_change_app_icon.caf",
-    "IOS-focus_change_keyboard.caf",
-    "IOS-focus_change_large.caf",
-    "IOS-focus_change_small.caf",
-    "IOS-go_to_sleep_alert.caf",
-    "IOS-health_notification.caf",
-    "IOS-jbl_ambiguous.caf",
-    "IOS-jbl_begin.caf",
-    "IOS-jbl_cancel.caf",
-    "IOS-jbl_confirm.caf",
-    "IOS-jbl_no_match.caf",
-    "IOS-key_press_click.caf",
-    "IOS-key_press_delete.caf",
-    "IOS-key_press_modifier.caf",
-    "IOS-keyboard_press_clear.caf",
-    "IOS-keyboard_press_delete.caf",
-    "IOS-keyboard_press_normal.caf",
-    "IOS-Ladder.caf",
-    "IOS-lock.caf",
-    "IOS-long_low_short_high.caf",
-    "IOS-low_power.caf",
-    "IOS-mail-sent.caf",
-    "IOS-middle_9_short_double_low.caf",
-    "IOS-Minuet.caf",
-    "IOS-navigation_pop.caf",
-    "IOS-navigation_push.caf",
-    "IOS-new-mail.caf",
-    "IOS-News_Flash.caf",
-    "IOS-nfc_scan_complete.caf",
-    "IOS-nfc_scan_failure.caf",
-    "IOS-Noir.caf",
-    "IOS-payment_failure.caf",
-    "IOS-payment_success.caf",
-    "IOS-photoShutter.caf",
-    "IOS-ReceivedMessage.caf",
-    "IOS-RingerChanged.caf",
-    "IOS-SentMessage.caf",
-    "IOS-shake.caf",
-    "IOS-Sherwood_Forest.caf",
-    "IOS-short_double_high.caf",
-    "IOS-short_double_low.caf",
-    "IOS-short_low_high.caf",
-    "IOS-SIMToolkitCallDropped.caf",
-    "IOS-SIMToolkitGeneralBeep.caf",
-    "IOS-SIMToolkitNegativeACK.caf",
-    "IOS-SIMToolkitPositiveACK.caf",
-    "IOS-SIMToolkitSMS.caf",
-    "IOS-sms-received1.caf",
-    "IOS-sms-received2.caf",
-    "IOS-sms-received3.caf",
-    "IOS-sms-received4.caf",
-    "IOS-sms-received5.caf",
-    "IOS-sms-received6.caf",
-    "IOS-Spell.caf",
-    "IOS-Suspense.caf",
-    "IOS-Swish.caf",
-    "IOS-Telegraph.caf",
-    "IOS-Tink.caf",
-    "IOS-Tiptoes.caf",
-    "IOS-Tock.caf",
-    "IOS-tweet_sent.caf",
-    "IOS-Typewriters.caf",
-    "IOS-Update.caf",
-    "IOS-ussd.caf",
-    "IOS-warsaw.caf",
-    "IOS-wheels_of_time.caf"]
-    
-    
+
 
     
     override func viewDidLoad() {
