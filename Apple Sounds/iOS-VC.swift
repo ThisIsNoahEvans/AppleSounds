@@ -10,6 +10,9 @@ import AVFoundation
 
 class iOSViewController: UITableViewController {
     
+
+    @IBOutlet weak var header: UIView!
+    
     private var player: AVAudioPlayer?
     
     func playSound(file: String) {
@@ -34,6 +37,7 @@ class iOSViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        header.applyGradient(colors: [UIColor(named: "ios1")!, UIColor(named: "ios2")!])
     }
     
     
