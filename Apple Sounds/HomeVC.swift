@@ -11,12 +11,13 @@ class HomeVC: UITableViewController {
 
 
     @IBOutlet weak var header: UIView!
-    @IBOutlet weak var iOS: UIView!
-    @IBOutlet weak var macOS: UIView!
-    @IBOutlet weak var watchOS: UIView!
-    @IBOutlet weak var tvOS: UIView!
-    @IBOutlet weak var HomePod: UIView!
 
+    @IBOutlet weak var iOS: UIButton!
+    @IBOutlet weak var macOS: UIButton!
+    @IBOutlet weak var watchOS: UIButton!
+    @IBOutlet weak var tvOS: UIButton!
+    @IBOutlet weak var homePod: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
       /*
@@ -39,13 +40,12 @@ class HomeVC: UITableViewController {
         iOS.applyGradient(colors: [UIColor(named: "ios1")!, UIColor(named: "ios2")!])
         watchOS.applyGradient(colors: [UIColor(named: "watch1")!, UIColor(named: "watch2")!])
         tvOS.applyGradient(colors: [UIColor(named: "tv1")!, UIColor(named: "tv2")!])
-        HomePod.applyGradient(colors: [UIColor(named: "home1")!, UIColor(named: "home2")!])
+        homePod.applyGradient(colors: [UIColor(named: "home1")!, UIColor(named: "home2")!])
         
         
-       
-
     }
-
+    
+ 
 }
 
 extension UIView {
