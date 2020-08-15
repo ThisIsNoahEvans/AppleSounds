@@ -34,6 +34,7 @@ class HomeVC: UITableViewController {
             }
         }
         
+         
         */
         // Apply gradients
         macOS.applyGradient(colors: [UIColor(named: "mac1")!, UIColor(named: "mac2")!])
